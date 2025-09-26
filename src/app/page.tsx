@@ -90,7 +90,7 @@ const items: Items[] = [
 
 export default function Home() {
   return (
-    <Grid p="lg">
+    <Grid p="lg" gutter="xs">
       {items.map((item) => (
         <Grid.Col key={item.id} span={{ base: 12, md: 6 }}>
           <Link
